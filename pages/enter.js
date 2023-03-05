@@ -3,8 +3,8 @@ import { auth, googleAuthProvider } from '../lib/firebase';
 import styles from '../styles/EnterPage.module.css'
 
 export default function EnterPage({}){
-    const user = 'af';
-    const username = 'af';
+    const user = null;
+    const username = null;
 
     // 1. user is signed out <SignInButton />
     // 2. user is signed in, but missing username <UsernameForm />
