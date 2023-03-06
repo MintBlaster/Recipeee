@@ -105,6 +105,9 @@ code {
   border-radius: 50%;
 }
 
+.username {
+  padding-left: .5rem;
+}
 /* Buttons */
 
 .btn, button {

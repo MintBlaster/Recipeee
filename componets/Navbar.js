@@ -27,6 +27,10 @@ export default function Navbar() {
                 <img src={user?.photoURL || "/chef.png"} />
               </Link>
             </li>
+            <li className="username">{username}</li>
+            {isVerified && (
+              <p>verified</p>
+            )}
           </>
         )}
         {/*user is not singed OR has not created username */}
